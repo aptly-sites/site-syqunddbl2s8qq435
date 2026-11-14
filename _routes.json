@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/_next/static/*",
+    "/brand/*",
+    "/favicon.svg",
+    "/fonts/*",
+    "/media/*",
+    "/vinext-client-entry-manifest.json"
+  ]
+}
