@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scrolling Testimonial Wall"
+  short_description: "Readable animated masonry with pause controls"
+  default_prompt: "Use $scrolling-testimonial-wall to adapt this pattern to my next website and its branding."

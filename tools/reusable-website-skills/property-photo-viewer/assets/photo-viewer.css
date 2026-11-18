@@ -1,0 +1,21 @@
+.property-photo-viewer{position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:0;border:0;border-radius:0;background:#101319;color:#fff;overflow:hidden}
+.property-photo-viewer[open]{display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;gap:12px}
+.property-photo-viewer::backdrop{background:#101319}
+.photo-viewer-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px;border-bottom:1px solid #ffffff26}
+.photo-viewer-heading h2{font-size:24px;font-weight:500;line-height:1.2;margin:0 0 6px;letter-spacing:-.025em}
+.photo-viewer-heading p{font-size:14px;margin:0;color:#cbd0d5}
+.property-photo-viewer button{cursor:pointer;color:#fff;background:#ffffff0d;border:1px solid #ffffff66;display:flex;align-items:center;justify-content:center;gap:6px;font:600 14px/1.4 inherit}
+.photo-viewer-heading button{padding:11px 17px;border-radius:999px;flex-shrink:0}
+.photo-viewer-stage{position:relative;min-height:0;display:flex;align-items:center;justify-content:center;padding:0 120px;touch-action:pan-y}
+.photo-viewer-stage>img{width:100%;height:100%;object-fit:contain}
+.photo-viewer-stage>button{position:absolute;top:50%;transform:translateY(-50%);padding:16px 10px;border-radius:14px;min-height:48px}
+.photo-viewer-prev{left:12px}.photo-viewer-next{right:12px}
+.photo-viewer-count{text-align:center;font-size:14px;line-height:1.5;margin:4px 0}
+.photo-viewer-thumbnails{position:relative;display:flex;gap:10px;overflow-x:auto;padding:8px 20px 16px;scrollbar-width:thin;scrollbar-color:#64717b transparent}
+.photo-viewer-thumbnails>button{position:relative;flex:0 0 90px;height:68px;padding:0;border:3px solid transparent;border-radius:9px;overflow:hidden;opacity:.55}
+.photo-viewer-thumbnails img{width:100%;height:100%;object-fit:cover}
+.photo-viewer-thumbnails span{position:absolute;right:3px;bottom:3px;font-size:11px;background:#101319bb;border-radius:4px;padding:1px 4px}
+.photo-viewer-thumbnails>button[aria-pressed=true]{border-color:#bce0e9;opacity:1}
+.property-photo-viewer button:hover{background:#ffffff26;opacity:1}
+.property-photo-viewer button:focus-visible{outline:3px solid #bce0e9;outline-offset:2px}
+@media(max-width:650px){.photo-viewer-heading{padding:16px}.photo-viewer-heading h2{font-size:19px}.photo-viewer-stage{padding:0 8px}.photo-viewer-stage>button{padding:8px;background:#101319b3}.photo-viewer-stage>button span{display:none}.photo-viewer-thumbnails{padding-left:12px;padding-right:12px}.photo-viewer-thumbnails>button{flex-basis:76px;height:58px}}

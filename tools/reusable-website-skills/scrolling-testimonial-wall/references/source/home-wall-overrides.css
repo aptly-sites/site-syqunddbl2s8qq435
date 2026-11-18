@@ -1,0 +1,20 @@
+.home-main>#figures .testimonial-column:nth-child(3){display:none}
+.home-main>#figures .testimonial-group{gap:30px;padding-bottom:30px}
+.home-main>#figures .testimonial-card{padding:38px;border-radius:26px}
+.home-main>#figures .testimonial-card blockquote{font-size:22px;line-height:1.75}
+.home-main>#figures .testimonial-card figcaption{font-size:18px;margin-top:28px}
+.home-main>#figures .testimonial-avatar{width:48px;height:48px;font-size:16px}
+.home-main>#figures.is-expanded .testimonial-masonry{height:auto}
+.home-main>#figures.is-expanded .testimonial-column:nth-child(3){display:block;grid-column:1/-1}
+@media(max-width:650px){.home-main>#figures.client-testimonials{padding:60px 24px}.home-main>#figures .testimonial-masonry{height:900px;display:block}.home-main>#figures .testimonial-card{padding:28px}.home-main>#figures .testimonial-card blockquote{font-size:20px;line-height:1.7}.home-main>#figures .testimonial-card figcaption{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.home-main>#figures .testimonial-masonry{height:auto}.home-main>#figures .testimonial-column:nth-child(3){display:block}}
+
+/* Fit the animated testimonial wall to the viewer's browser height. */
+.home-main>#figures.client-testimonials:not(.is-expanded){height:100dvh;min-height:0;display:flex;flex-direction:column;padding:clamp(24px,5dvh,64px) 5vw}
+.home-main>#figures:not(.is-expanded) .testimonial-heading{flex-shrink:0;margin-bottom:clamp(16px,3dvh,32px)}
+.home-main>#figures:not(.is-expanded) .testimonial-masonry{height:auto;min-height:0;flex:1}
+.home-main>#figures:not(.is-expanded) .testimonial-bottom{flex-shrink:0;margin-top:clamp(16px,3dvh,28px)}
+.home-main>#figures.is-expanded{min-height:100dvh;height:auto}
+@media(max-width:650px){.home-main>#figures.client-testimonials:not(.is-expanded){padding:24px}.home-main>#figures:not(.is-expanded) .testimonial-heading>p{margin-bottom:0}.home-main>#figures:not(.is-expanded) .testimonial-bottom{gap:12px}}
+@media(max-height:600px){.home-main>#figures:not(.is-expanded) .testimonial-heading h2{font-size:34px}.home-main>#figures:not(.is-expanded) .testimonial-heading>p{display:none}.home-main>#figures:not(.is-expanded) .testimonial-heading .eyebrow{margin:0}}
+@media(prefers-reduced-motion:reduce){.home-main>#figures.client-testimonials:not(.is-expanded){height:auto;min-height:100dvh}.home-main>#figures:not(.is-expanded) .testimonial-masonry{flex:none;height:auto;overflow:visible}}

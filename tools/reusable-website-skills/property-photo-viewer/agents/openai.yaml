@@ -1,0 +1,4 @@
+interface:
+  display_name: "Property Photo Viewer"
+  short_description: "Fullscreen photos with keyboard and touch controls"
+  default_prompt: "Use $property-photo-viewer to adapt this pattern to my next website and its branding."

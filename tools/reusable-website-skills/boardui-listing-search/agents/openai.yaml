@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board UI Listing Search"
+  short_description: "Board UI filters, listing cards and map clusters"
+  default_prompt: "Use $boardui-listing-search to adapt this pattern to my next website and its branding."

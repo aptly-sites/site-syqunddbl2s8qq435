@@ -1,0 +1,16 @@
+Reference primitive entrypoints (not bundled Pro kit):
+components/base/select/select.tsx
+components/base/slider/slider.tsx
+
+Dependencies to resolve in destination:
+react-aria-components
+@remixicon/react
+tailwind-merge
+components/base/dropdown/menu-styles
+components/base/input/label
+components/foundations/scroll-fade/scroll-fade
+components/foundations/icons/chevrons
+utils/cx
+utils/use-dismiss-on-outside-press
+
+See destination Board UI package for theme CSS and transitive dependencies.

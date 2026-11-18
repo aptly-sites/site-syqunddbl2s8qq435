@@ -1,0 +1,4 @@
+interface:
+  display_name: "Floating Icon Navigation"
+  short_description: "Rounded icon dock with animated page previews"
+  default_prompt: "Use $floating-icon-navigation to adapt this pattern to my next website and its branding."

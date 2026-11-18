@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buyer and Seller Pages"
+  short_description: "Rounded buyer and seller landing page patterns"
+  default_prompt: "Use $real-estate-buyer-seller-pages to adapt this pattern to my next website and its branding."

@@ -1,0 +1,17 @@
+import "../navigation.css";
+import {Users, KeyRound, BadgeDollarSign, House, Search} from "lucide-react";
+import NavigationPopover from "../NavigationPopover";
+import OwnersMenu from "../OwnersMenu";
+import AgentsMenu from "../AgentsMenu";
+import LoginMenu from "../LoginMenu";
+export default function Header({active="home", home=false}:{home?:boolean;active?:"sellers"|"residents"|"home"|"buyers"|"rentals"|"owners"|"locations"|"about"|"agents"}){return <header className={`rental-header standard-navigation${home ? " site-header home-navigation" : ""}`}><nav aria-label="Main navigation"><div className="nav-dock"><a className="nav-brand" href="/" aria-label="The Pruitt Team homepage"><img src="/brand/pruitt-team.png" alt="The Pruitt Team — West USA Realty"/></a><NavigationPopover label="About Us" active={active==="about"} icon={<Users aria-hidden="true"/>} items={[{label:'Our team',description:'Meet the people behind Pruitt.',href:'/about',preview:'/about'}]}/><a href="/buyers" aria-current={active==="buyers"?"page":undefined} aria-label="Buyers"><KeyRound aria-hidden="true"/><span className="nav-item-label">Buyers</span></a><a href="/sellers" aria-current={active==="sellers"?"page":undefined} aria-label="Sellers"><BadgeDollarSign aria-hidden="true"/><span className="nav-item-label">Sellers</span></a><OwnersMenu active={active==="owners"}/><NavigationPopover label="Residents" active={active==="residents"} icon={<House aria-hidden="true"/>} items={[
+{group:'Current Residents',label:'Resident resources',description:'Tools and support for your home.',href:'/residents?audience=current',preview:'/residents?audience=current'},
+{group:'Current Residents',label:'Pay rent',description:'Online, by mail or in person.',href:'/residents?audience=current#pay-rent',preview:'/residents?audience=current#pay-rent'},
+{group:'Current Residents',label:'Maintenance & repairs',description:'Troubleshoot and request a repair.',href:'/residents/work-order',preview:'/residents/work-order'},
+{group:'Current Residents',label:'Resident handbook & FAQs',description:'Helpful answers and everyday care.',href:'/residents?audience=current#resident-handbook',preview:'/residents?audience=current#resident-handbook'},
+{group:'Current Residents',label:'Moving out',description:'Submit your move-out notice.',href:'https://www.jotform.com/sign/252125463625050/invite/01k1khy6j3bbacb447913e8a53'},
+{group:'Future Residents',label:'Future resident resources',description:'Start your next chapter with us.',href:'/residents?audience=future',preview:'/residents?audience=future'},
+{group:'Future Residents',label:'Find a home & schedule a tour',description:'Explore available Arizona rentals.',href:'/rentals',preview:'/rentals'},
+{group:'Future Residents',label:'Application requirements',description:'Review the requirements and apply.',href:'/residents?audience=future#application-requirements',preview:'/residents?audience=future#application-requirements'},
+{group:'Future Residents',label:'Application FAQs',description:'Screening, fees and move-in questions.',href:'/residents?audience=future#resident-faq',preview:'/residents?audience=future#resident-faq'}
+]}/><AgentsMenu active={active==="agents"}/><LoginMenu/></div><a className="nav-rentals-cta" href="/rentals" aria-current={active==="rentals"?"page":undefined}><span className="nav-search-icon"><Search aria-hidden="true"/></span>Search Listings</a></nav></header>}

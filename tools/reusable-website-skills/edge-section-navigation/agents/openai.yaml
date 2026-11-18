@@ -1,0 +1,4 @@
+interface:
+  display_name: "Edge Section Navigation"
+  short_description: "Contrast-aware edge ticks and section anchors"
+  default_prompt: "Use $edge-section-navigation to adapt this pattern to my next website and its branding."
