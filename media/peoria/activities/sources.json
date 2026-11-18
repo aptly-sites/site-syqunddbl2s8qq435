@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Lake Pleasant Regional Park",
+    "sourcePage": "https://www.maricopacountyparks.net/park-locator/lake-pleasant-regional-park/",
+    "imageSource": "https://www.maricopacountyparks.net/assets/1/15/GalleryMainDimensionId/LP-Yavapai_Point.JPG"
+  },
+  {
+    "name": "Pleasant Harbor Marina",
+    "sourcePage": "https://pleasantharbor.com/",
+    "imageSource": "https://pleasantharbor.com/wp-content/uploads/2017/06/cta-marina.jpg"
+  },
+  {
+    "name": "Lake Pleasant Discovery Center",
+    "sourcePage": "https://www.maricopacountyparks.net/park-locator/lake-pleasant-regional-park/park-information/discovery-center/",
+    "imageSource": "https://www.maricopacountyparks.net/assets/1/6/831c2c920663401db6cc28447c922e951.jpg"
+  }
+]
