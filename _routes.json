@@ -12,6 +12,8 @@
     "/fonts/*",
     "/media/*",
     "/pruitt-loading-glow.png",
-    "/vinext-client-entry-manifest.json"
+    "/vinext-client-entry-manifest.json",
+    "/website-review-link.js",
+    "/studio-review.css"
   ]
 }
