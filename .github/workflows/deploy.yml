@@ -1,6 +1,9 @@
 name: Deploy to Cloudflare Pages
 
 on:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -12,6 +15,13 @@ jobs:
       deployments: write
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Refresh MLS inventory
+        run: node tools/refresh-listings.mjs data/listings.json
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3

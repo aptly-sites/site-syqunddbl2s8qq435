@@ -6,6 +6,7 @@
   "exclude": [
     "/_next/static/*",
     "/brand/*",
+    "/data/*",
     "/documents/*",
     "/favicon.svg",
     "/fonts/*",
