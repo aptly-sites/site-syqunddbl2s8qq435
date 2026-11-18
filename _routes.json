@@ -5,12 +5,12 @@
   ],
   "exclude": [
     "/_next/static/*",
-    "/__private/*",
     "/brand/*",
     "/documents/*",
     "/favicon.svg",
     "/fonts/*",
     "/media/*",
+    "/pruitt-loading-glow.png",
     "/vinext-client-entry-manifest.json"
   ]
 }

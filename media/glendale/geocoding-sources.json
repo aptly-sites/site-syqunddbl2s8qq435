@@ -1,0 +1,117 @@
+{
+  "checked": "2026-11-13",
+  "sources": [
+    "US Census address geocoder",
+    "ArcGIS World Geocoding Service"
+  ],
+  "addresses": [
+    {
+      "address": "9405 W Glendale Ave",
+      "matches": [
+        {
+          "address": "9405 W GLENDALE AVE, GLENDALE, AZ, 85305",
+          "coordinates": {
+            "x": -112.261531631415,
+            "y": 33.537303635638
+          }
+        }
+      ]
+    },
+    {
+      "address": "6751 N Sunset Blvd",
+      "matches": [
+        {
+          "address": "6751 N SUNSET BLVD, GLENDALE, AZ, 85305",
+          "coordinates": {
+            "x": -112.262091895445,
+            "y": 33.53371814911
+          }
+        }
+      ]
+    },
+    {
+      "address": "6770 N Sunrise Blvd",
+      "matches": [
+        {
+          "address": "6770 N SUNRISE BLVD, GLENDALE, AZ, 85305",
+          "coordinates": {
+            "x": -112.260474903677,
+            "y": 33.533512123251
+          }
+        }
+      ]
+    },
+    {
+      "address": "9375 W Entertainment Blvd",
+      "matches": [
+        {
+          "address": "9375 W Entertainment Blvd, Glendale, Arizona, 85305",
+          "coordinates": {
+            "x": -112.260606024536,
+            "y": 33.532938437319
+          }
+        }
+      ]
+    },
+    {
+      "address": "19420 N 59th Ave",
+      "matches": [
+        {
+          "address": "19420 N 59TH AVE, GLENDALE, AZ, 85308",
+          "coordinates": {
+            "x": -112.186581888509,
+            "y": 33.661619873603
+          }
+        }
+      ]
+    },
+    {
+      "address": "8280 W Union Hills Dr",
+      "matches": [
+        {
+          "address": "8280 W UNION HILLS DR, GLENDALE, AZ, 85308",
+          "coordinates": {
+            "x": -112.236338134617,
+            "y": 33.652779308683
+          }
+        }
+      ]
+    },
+    {
+      "address": "9445 W Entertainment Blvd",
+      "matches": [
+        {
+          "address": "9445 W Entertainment Blvd, Glendale, Arizona, 85305",
+          "coordinates": {
+            "x": -112.2625309286,
+            "y": 33.532824652983
+          }
+        }
+      ]
+    },
+    {
+      "address": "9431 W Northern Ave",
+      "matches": [
+        {
+          "address": "9431 W Northern Ave, Glendale, Arizona, 85305",
+          "coordinates": {
+            "x": -112.261309266212,
+            "y": 33.547406524209
+          }
+        }
+      ]
+    },
+    {
+      "address": "9495 W Entertainment Blvd",
+      "matches": [
+        {
+          "address": "9495 W Entertainment Blvd, Glendale, Arizona, 85305",
+          "coordinates": {
+            "x": -112.2632840426,
+            "y": 33.532469218379
+          }
+        }
+      ]
+    }
+  ]
+}

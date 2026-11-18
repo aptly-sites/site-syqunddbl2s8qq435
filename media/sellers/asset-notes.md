@@ -1,0 +1,12 @@
+# Sellers staging images
+Generated with the built-in image generation tool, November 17, 2026.
+
+Files: bedroom-before.webp and bedroom-after.webp. AI illustrations; not actual listings.
+
+Before prompt: Photorealistic ordinary real estate listing photo of an empty primary bedroom in a realistic middle-priced Arizona suburban home. Wide horizontal 16:9 composition, fixed eye-level camera from doorway facing the blank bed wall on left and a modest window on right, ceiling fan, standard 8-foot ceiling, beige carpet, off-white walls, simple white baseboards. Window has basic white horizontal blinds partly open, outside only a neighboring stucco wall and a small desert tree, normal late morning daylight. Unstyled vacant room, bland but clean, slightly dull amateur listing photography yet naturally readable. Not luxury architecture, no giant windows, no dramatic sunset, no nighttime, no furniture, no text. This is a believable BEFORE staging image; architecture and daylight will be preserved in an AFTER edit.
+
+After prompt: Edit target: this exact empty Arizona bedroom. Create dramatic yet BELIEVABLE professional staging AFTER. Preserve identical camera position, crop, aspect ratio, ceiling height, ceiling fan, walls, window and outside view, beige carpet, door edge. SAME daytime hour and daylight direction. Furnish with beautiful king bed against left wall, tall oatmeal upholstered headboard, layered crisp ivory bedding, warm terracotta and sage pillows, folded soft throw, paired oak nightstands and elegant ceramic lamps switched on, large restrained framed art above headboard, cream rug under bed, long linen curtains pulled to sides of existing window, modest plant. Bright clean professionally exposed interior photo, warm and inviting but no architectural renovation and no new windows. The staging should make the ordinary room feel polished and desirable. No people, text or watermark.
+
+Statistics source: https://www.thepruittteam.com/ — counter data-target values 32 ($M average annual sales), 400 (families helped annually), and prose identifying 11 Top Producer recognitions since 2003. Retrieved November 17, 2026. No reporting period supplied for annual metrics, so these are attributed and qualified on the page. No sold-listing feed totals used as team sales totals.
+
+Reviews: existing project data/testimonials.json, with source https://www.thepruittteam.com/testimonials/. Short verbatim excerpts attributed to Palmeri Tulin and Steph Schlachter.
