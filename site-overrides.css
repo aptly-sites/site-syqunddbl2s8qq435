@@ -1,0 +1,16 @@
+/*
+  Site color overrides (hand-written, safe to edit).
+  Loaded on every page by functions/_review/response.mjs, after the compiled styles.
+  This file is not under /_next/static, so browsers re-check it and see changes right away.
+*/
+
+/* Top navigation: dark blue instead of black (was #080808) */
+html body header.standard-navigation .nav-dock,
+html body header.standard-navigation .nav-preview-popover,
+html body header.standard-navigation nav > a.nav-rentals-cta {
+  background: #0f2a44;
+}
+
+html body header.standard-navigation nav > a.nav-rentals-cta:hover {
+  background: #1c3d5e; /* was #292929 */
+}
