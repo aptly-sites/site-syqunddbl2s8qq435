@@ -253,7 +253,7 @@
     ]
   },
   "app/about/TeamProfiles.tsx": {
-    "file": "_next/static/chunks/TeamProfiles-cfbaf129.js",
+    "file": "_next/static/chunks/TeamProfiles-834d4cef.js",
     "name": "TeamProfiles",
     "src": "app/about/TeamProfiles.tsx",
     "isDynamicEntry": true,
