@@ -235,7 +235,7 @@
     ]
   },
   "app/HomeContent.tsx": {
-    "file": "_next/static/chunks/HomeContent-DayOb9zK.js",
+    "file": "_next/static/chunks/HomeContent-5dfeb417.js",
     "name": "HomeContent",
     "src": "app/HomeContent.tsx",
     "isDynamicEntry": true,
