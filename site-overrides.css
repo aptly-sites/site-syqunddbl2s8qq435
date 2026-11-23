@@ -4,13 +4,13 @@
   This file is not under /_next/static, so browsers re-check it and see changes right away.
 */
 
-/* Top navigation charcoal backgrounds */
+/* Top navigation: dark blue instead of black (was #080808) */
 html body header.standard-navigation .nav-dock,
 html body header.standard-navigation .nav-preview-popover,
 html body header.standard-navigation nav > a.nav-rentals-cta {
-  background: #303236;
+  background: #0f2a44;
 }
 
 html body header.standard-navigation nav > a.nav-rentals-cta:hover {
-  background: #45484d;
+  background: #1c3d5e; /* was #292929 */
 }
