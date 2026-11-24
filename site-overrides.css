@@ -4,15 +4,14 @@
   This file is not under /_next/static, so browsers re-check it and see changes right away.
 */
 
-/* Top navigation: dark blue instead of black (was #080808) */
-html body header.standard-navigation .nav-dock,
-html body header.standard-navigation .nav-preview-popover,
-html body header.standard-navigation nav .property-search-menu > summary.nav-rentals-cta {
-  background: #0f2a44;
+/* Navigation and destination previews share the same navy. */
+:root {
+  --site-navigation-navy: #0f2a44;
 }
 
-html body header.standard-navigation nav .property-search-menu > summary.nav-rentals-cta:hover {
-  background: #1c3d5e; /* was #292929 */
+html body header.standard-navigation :is(.nav-dock, .nav-preview-popover, .nav-rentals-cta, .property-search-options),
+.hero-rotator.hero-destinations {
+  background-color: var(--site-navigation-navy) !important;
 }
 
 header.standard-navigation .property-search-menu {
@@ -42,7 +41,6 @@ header.standard-navigation .property-search-options {
   padding: 6px;
   border: 1px solid #ffffff30;
   border-radius: 16px;
-  background: #0f2a44;
   box-shadow: 0 8px 28px #102a4340;
 }
 
@@ -68,4 +66,9 @@ header.standard-navigation .property-search-options a:is(:hover, :focus-visible)
   header.standard-navigation nav .property-search-menu > summary.nav-rentals-cta {
     position: static;
   }
+}
+
+/* Capitalize headings across page templates. */
+:where(body) :is(h1, h2, h3, h4, h5, h6) {
+  text-transform: capitalize !important;
 }
