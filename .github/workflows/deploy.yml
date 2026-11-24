@@ -17,11 +17,11 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          AGENT_FORMS_PASSWORD_HASH: ${{ secrets.AGENT_FORMS_PASSWORD_HASH }}
+          AGENT_FORMS_PASSWORD: ${{ secrets.AGENT_FORMS_PASSWORD }}
           PAGES_PROJECT: ${{ github.event.repository.name }}
         run: |
-          if [ -n "$AGENT_FORMS_PASSWORD_HASH" ]; then
-            printf '%s' "$AGENT_FORMS_PASSWORD_HASH" | npx --yes wrangler@4 pages secret put AGENT_FORMS_PASSWORD_HASH --project-name="$PAGES_PROJECT"
+          if [ -n "$AGENT_FORMS_PASSWORD" ]; then
+            printf '%s' "$AGENT_FORMS_PASSWORD" | npx --yes wrangler@4 pages secret put AGENT_FORMS_PASSWORD --project-name="$PAGES_PROJECT"
           fi
 
       - name: Deploy to Cloudflare Pages
