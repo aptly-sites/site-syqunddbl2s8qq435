@@ -7,10 +7,65 @@
 /* Top navigation: dark blue instead of black (was #080808) */
 html body header.standard-navigation .nav-dock,
 html body header.standard-navigation .nav-preview-popover,
-html body header.standard-navigation nav > a.nav-rentals-cta {
+html body header.standard-navigation nav .property-search-menu > summary.nav-rentals-cta {
   background: #0f2a44;
 }
 
-html body header.standard-navigation nav > a.nav-rentals-cta:hover {
+html body header.standard-navigation nav .property-search-menu > summary.nav-rentals-cta:hover {
   background: #1c3d5e; /* was #292929 */
+}
+
+header.standard-navigation .property-search-menu {
+  position: relative;
+}
+
+header.standard-navigation .property-search-menu > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+header.standard-navigation .property-search-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+header.standard-navigation .property-search-menu > summary:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+header.standard-navigation .property-search-options {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 2;
+  min-width: max-content;
+  padding: 6px;
+  border: 1px solid #ffffff30;
+  border-radius: 16px;
+  background: #0f2a44;
+  box-shadow: 0 8px 28px #102a4340;
+}
+
+header.standard-navigation .property-search-options a {
+  display: block;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: #fff;
+  font: 600 14px/1.2 Manrope, Arial, sans-serif;
+}
+
+header.standard-navigation .property-search-options a:is(:hover, :focus-visible) {
+  background: #1c3d5e;
+}
+
+@media (max-width: 800px) {
+  header.standard-navigation .property-search-menu {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+  }
+
+  header.standard-navigation nav .property-search-menu > summary.nav-rentals-cta {
+    position: static;
+  }
 }

@@ -17,6 +17,8 @@
     "/studio-review.css",
     "/site-overrides.css",
     "/rental-application",
-    "/rental-application.html"
+    "/rental-application.html",
+    "/residents/one-time-payments",
+    "/residents/one-time-payments.html"
   ]
 }
