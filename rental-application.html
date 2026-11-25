@@ -34,6 +34,12 @@
     .actions { display: flex; flex-wrap: wrap; gap: .75rem; }
     .button { display: inline-block; padding: .7rem 1rem; min-height: 44px; border-radius: .5rem; background: #0f2a44; color: white; text-decoration: none; font-weight: bold; }
     .footer-inner { padding-block: 1.25rem; }
+    .owners-nav { position: relative; margin: 0; border: 0; background: transparent; }
+    .owners-nav summary { cursor: pointer; padding: .4rem .6rem; }
+    .owners-nav-links { position: absolute; z-index: 2; inset-inline-end: 0; min-width: 12rem; padding: .4rem; border-radius: .5rem; background: #0f2a44; box-shadow: 0 4px 16px #0003; }
+    .owners-nav-links a { display: block; padding: .4rem .6rem; white-space: nowrap; }
+    .owners-nav summary { display: list-item; font-weight: normal; }
+    .owners-nav summary::after { content: none; }
   </style>
   <link rel="stylesheet" href="/site-overrides.css">
 </head>
@@ -43,6 +49,14 @@
       <a href="/"><img src="/brand/pruitt-team.png" alt="The Pruitt Team home" width="3300" height="825"></a>
       <a href="/residents?audience=future">Future Residents</a>
       <a href="/rentals">Search Rentals</a>
+      <details class="owners-nav">
+        <summary>Owners</summary>
+        <div class="owners-nav-links">
+          <a href="/owners">Property Management</a>
+          <a href="/owners/pricing">Pricing &amp; Plans</a>
+          <a href="https://west12265.elevate.cafe/ownerportalnet/content2/access/login">Owner Portal Login</a>
+        </div>
+      </details>
     </nav>
   </header>
   <main>
