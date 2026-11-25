@@ -9,16 +9,17 @@
     "/data/*",
     "/documents/*",
     "/favicon.png",
+    "/favicon.svg",
     "/fonts/*",
     "/media/*",
     "/pruitt-loading-glow.png",
-    "/vinext-client-entry-manifest.json",
-    "/website-review-link.js",
-    "/studio-review.css",
-    "/site-overrides.css",
     "/rental-application",
     "/rental-application.html",
     "/residents/one-time-payments",
-    "/residents/one-time-payments.html"
+    "/residents/one-time-payments.html",
+    "/site-overrides.css",
+    "/studio-review.css",
+    "/vinext-client-entry-manifest.json",
+    "/website-review-link.js"
   ]
 }
